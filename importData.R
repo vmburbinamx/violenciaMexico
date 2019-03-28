@@ -2,6 +2,7 @@ library(readxl)
 library(writexl)
 library(dplyr)
 library(tidyr)
+
 newNames <- c("ANO", "CLAVE_ENT", "ENTIDAD", "BIEN_JURIDICO_AFECTADO", "TIPO_DE_DELITO", "SUBTIPO_DE_DELITO", "MODALIDAD", "SEXO", "RANGO_DE_EDAD",  "ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO", "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE")
 data <- read_excel("datos.xlsx", col_types = c("text", 
                                  "text", "text", "text", "text", "text", 
